@@ -26,7 +26,8 @@ Logo {
 Filters {
     display: inline-block;
     width: 99%;
-    height: 89%;
+    height: 29%;
+    border: 3px solid red;
 }
 
 RightTab{
