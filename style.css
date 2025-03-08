@@ -1,5 +1,5 @@
 body {
-    background-color: greenyellow;
+    background-color: #f5f5f3;
 }
 
 LeftTab {
@@ -9,7 +9,7 @@ LeftTab {
     width: 20%;
     height: 710px;
     margin: 0 20% 100% 5px;
-    background-color: green;
+    background-color: white;
     z-index: 1;
     border-radius: 10px;
 }
@@ -47,7 +47,7 @@ TopTab {
     padding-left: 10px;
     padding-right: 30px;
     margin-left: 2.5%;
-    background-color: green;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -58,7 +58,7 @@ Products {
     margin-left: 3.5%;
     height: 150px;
     border-radius: 20px;
-    background-color: orange;
+    background-color: white;
     margin-bottom: 30px;
 }
 
@@ -157,6 +157,6 @@ p2 {
     bottom: 20px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color:chocolate;
+    background-color: #f5f5f3;
 }
 
