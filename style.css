@@ -143,6 +143,8 @@ div {
 }
 
 p2 {
-    
+    position: relative;
+    right: 100px;
+    bottom: 20px;
 }
 
