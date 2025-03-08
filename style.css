@@ -52,7 +52,7 @@ TopTab {
 }
 
 Products {
-    border: 2px solid black;
+    border: 5px solid orange;
     display: inline-block;
     width: 45%;
     margin-left: 3.5%;
