@@ -9,7 +9,7 @@ LeftTab {
     width: 20%;
     height: 710px;
     margin: 0 20% 100% 5px;
-    background-color: linear-gradient(180deg, rgba(187,201,0,1) 0%, rgba(182,134,0,1) 100%);
+    background: linear-gradient(180deg, rgba(187,201,0,1) 0%, rgba(182,134,0,1) 100%);
     z-index: 1;
     border-radius: 10px;
 }
