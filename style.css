@@ -108,10 +108,10 @@ Options {
 
 h1 {
     display: inline-block;
-    font-size: 25px;
+    font-size: 35px;
     position: absolute;
-    top: 10px;
-    left: 82px;
+    top: 0px;
+    left: 100px;
 }
 
 #Search {
@@ -130,7 +130,7 @@ h1 {
     display: inline-block;
     position: relative;
     top: 32%;
-    left: 75px;
+    left: 125px;
     background-color: white;
     height: 30px;
     width: 30px;
