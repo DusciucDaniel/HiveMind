@@ -7,7 +7,7 @@ LeftTab {
     display: inline-block;
     position: fixed;
     width: 20%;
-    height: 710px;
+    height: 140px;
     margin: 0 20% 100% 5px;
     z-index: 1;
     border-radius: 10px;
@@ -26,7 +26,8 @@ Logo {
 Filters {
     display: inline-block;
     width: 99%;
-    height: 29%;
+    height: 89%;
+    margin-bottom: 20px;
     border: 3px solid red;
 }
 
