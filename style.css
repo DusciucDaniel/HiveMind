@@ -96,10 +96,6 @@ h3 {
 
 p {
     display: inline-block;
-    position: relative;
-    bottom: 50px;
-    right: 100px;
-    width: 150px;
 }
 
 Like {
