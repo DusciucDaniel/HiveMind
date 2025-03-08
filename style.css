@@ -9,14 +9,20 @@ LeftTab {
     width: 20%;
     height: 710px;
     margin: 0 20% 100% 5px;
-    background-color: white;
+    background-color: green;
     z-index: 1;
     border-radius: 10px;
 }
 
 Logo {
     display: inline-block;
-    margin-left: 35%;
+    margin-left: 36%;
+    padding: 0 100% 0 0;
+    position: relative;
+    right: 36%;
+    border-radius: 10px;
+    background-color: white;
+    
 }
 
 Filters {
