@@ -7,7 +7,7 @@ LeftTab {
     display: inline-block;
     position: fixed;
     width: 20%;
-    height: 560px;
+    height: 710px;
     margin: 0 20% 100% 5px;
     background-color: white;
     z-index: 1;
@@ -20,10 +20,9 @@ Logo {
 }
 
 Filters {
-    border: 2px solid red;
     display: inline-block;
     width: 99%;
-    height: 86%;
+    height: 89%;
 }
 
 RightTab{
@@ -54,6 +53,7 @@ Products {
     height: 150px;
     border-radius: 20px;
     background-color: orange;
+    margin-bottom: 30px;
 }
 
 img {
@@ -91,10 +91,13 @@ Like {
 }
 
 Options {
-    border: 2px solid pink;
+    border: 2px solid black;
     display: inline-block;
     width: 99%;
     height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
 }
 
 #LogoImg {
