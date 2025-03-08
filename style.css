@@ -146,5 +146,8 @@ p2 {
     position: relative;
     right: 100px;
     bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:chocolate;
 }
 
