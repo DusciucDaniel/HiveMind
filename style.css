@@ -116,8 +116,6 @@ Like {
 button {
     display: inline-block;
     position: relative;
-    bottom: 110px;
-    left: 25px;
     cursor: pointer;
 }
 
