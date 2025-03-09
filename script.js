@@ -2,15 +2,15 @@ let stat = false;
 
 function like(id)
 {
-    const likeButton = document.getElementById(id);
+    const likeButton = document.getElementById("1");
     if(!stat) 
     {
         stat = true;
-        likeButton.innerText = "❤️";
+        likeButton.innerHTML = "❤️";
     }
     if(stat)
     {    
         stat = false;
-        likeButton.innerText = "♡";
+        likeButton.innerHTML = "♡";
     }
 }
