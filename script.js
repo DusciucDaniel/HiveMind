@@ -1,5 +1,3 @@
-let stat = false;
-
 function like(id)
 {
     console.log("sad");
