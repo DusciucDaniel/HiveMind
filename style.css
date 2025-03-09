@@ -107,9 +107,10 @@ p {
 }
 
 Like {
+    display: inline-block;
     position:relative;
     bottom: 110px;
-    right: 100%;
+    left: 25px;
     cursor: pointer;
 }
 
