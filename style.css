@@ -215,3 +215,16 @@ p2 {
   .dropdown-content a:hover {background-color: #ddd;}
   
   .dropdown:hover .dropdown-content {display: block;}
+
+  BottomTab {
+    border: 2px solid black;
+    display: inline-block;
+    width: 91%;
+    height: 600px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 2.5%;
+    background-color: white;
+    border-radius: 10px;
+  }
