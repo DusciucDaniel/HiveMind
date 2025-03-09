@@ -64,7 +64,7 @@ TopTab {
     width: 91%;
     height: 100px;
     margin-bottom: 30px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 30px;
     margin-left: 2.5%;
     background-color: white;
@@ -108,7 +108,7 @@ Like {
     display: inline-block;
     position: relative;
     bottom: 110px;
-    left: 95px;
+    left: 25px;
     cursor: pointer;
 }
 
