@@ -2,6 +2,7 @@ let stat = false;
 
 function like(id)
 {
+    console.log("sad");
     if(document.getElementById(id).innerHTML === "♡") {
         document.getElementById(id).innerHTML = "❤️";
     } else {
