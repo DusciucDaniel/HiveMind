@@ -243,5 +243,6 @@ p2 {
     text-decoration: none;
     font-size: 30px;
     position: relative;
+    top: 30px;
     cursor: pointer;
   }
