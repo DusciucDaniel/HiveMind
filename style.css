@@ -37,9 +37,10 @@ FilterY {
     display: inline-block;
     width: 99%;
     background-color: white;
-    height: 89%;
+    height: 38%;
     margin-bottom: 20px;
-    border: 3px solid red;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 FilterZ {
     display: inline-block;
@@ -192,7 +193,7 @@ p2 {
   }
   
   .dropdown {
-    margin-left: 22%;
+    margin-left: 21%;
   }
   
   .dropdown-content {
@@ -214,5 +215,3 @@ p2 {
   .dropdown-content a:hover {background-color: #ddd;}
   
   .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
