@@ -57,7 +57,7 @@ app.post("/submit", async (req, res) => {
   
       const newEmail = new Email({ email, role });
       await newEmail.save();
-      res.redirect("/Frontend/registered.html");
+      res.redirect("/registered.html");
     } catch (err) {
       console.error("Error saving email:", err);
       res.status(500).send("❌ Error saving email");
