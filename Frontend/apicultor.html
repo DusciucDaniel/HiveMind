@@ -25,9 +25,18 @@
             </p>
 
             
-                
+             
+            
             <div id="SubmitForm">
-                <h2><u> Aboneazate la Newsletter</u></h2>
+                <p>Calculatorul abonamentului in functie de stupi</p>
+                <input type="text" id="value" style="text-align: center;">
+                <button onclick="getNumber()" style="border-radius: 20px; border: 2px solid black; background-color: white; cursor: pointer;">Submit</button>
+                <p id="number">0</p>
+            </div>
+
+
+            <div id="SubmitForm">
+                <h2><u> Lăsați-ne mailul dacă sunteți interesat!</u></h2>
                 <form id="emailForm" action="/submit" method="POST">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required style="cursor: text; border-radius: 20px; border: 2px solid black;"><br><br>
@@ -52,6 +61,43 @@
         #ffe5bf
         #ff9800
     </p>
+
+    <script>
+        let number = document.getElementById("number");
+
+        function getNumber() //(stupi * 90) / 7
+        {
+            const inputValue = document.getElementById("value").value;
+            let out = parseInt(inputValue * 90 / 7);
+            switch(out % 10)
+            {
+                case 1: out += 9; break;
+                case 2: out += 8; break;
+                case 3: out += 7; break;
+                case 4: out += 6; break;
+                case 5: out += 5; break;
+                case 6: out += 4; break;
+                case 7: out += 3; break;
+                case 8: out += 2; break;
+                case 9: out += 1; break;
+            }
+            document.getElementById("number").innerText = out.toString() + " lei/lună";
+        }
+
+        document.getElementById("emailForm").addEventListener("submit", async function(e) {
+    e.preventDefault();
+    const email = document.getElementById("emailInput").value;
+
+    const response = await fetch("/submit", {
+        method: "POST",
+        body: JSON.stringify({ email }),
+        headers: { "Content-Type": "application/json" }
+    });
+
+    const message = await response.text();
+    document.getElementById("responseMessage").textContent = message;
+});
+    </script>
 
     <style>
         body {

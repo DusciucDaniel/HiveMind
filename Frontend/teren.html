@@ -27,7 +27,7 @@
             
                 
             <div id="SubmitForm">
-                <h2><u> Aboneazate la Newsletter</u></h2>
+                <h2><u> Lăsați-ne mailul dacă sunteți interesat!</u></h2>
                 <form id="emailForm" action="/submit" method="POST">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required style="cursor: text; border-radius: 20px; border: 2px solid black;"><br><br>
@@ -52,6 +52,22 @@
         #ffe5bf
         #ff9800
     </p>
+
+    <script>
+        document.getElementById("emailForm").addEventListener("submit", async function(e) {
+    e.preventDefault();
+    const email = document.getElementById("emailInput").value;
+
+    const response = await fetch("/submit", {
+        method: "POST",
+        body: JSON.stringify({ email }),
+        headers: { "Content-Type": "application/json" }
+    });
+
+    const message = await response.text();
+    document.getElementById("responseMessage").textContent = message;
+});
+    </script>
 
     <style>
         body {
